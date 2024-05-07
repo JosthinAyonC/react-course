@@ -1,18 +1,35 @@
 .grid {
     display: grid;
-    grid-template-columns: repeat(3, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
 }
 
 .hero-card {
+    margin: 10px 0px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    padding: 10px;
-    margin: 10px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
     display: flex;
     flex-direction: row;
+    width: 18rem;
+    height: 20rem;
 }
 
-.row {
-    width: 50%;
+.row-left {
+    width: 45%;
+}
+
+.row-left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px 0 0 4px;
+}
+
+.row-right {
+    padding: 10px;
+    width: 55%;
+}
+.row-right p{
+    margin-top: 25px;
 }

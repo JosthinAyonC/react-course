@@ -66,7 +66,7 @@ export const heroes: Hero[] = [
     },
     {
         'id': 'dc-robin',
-        'superhero': 'Robin/Nightwing',
+        'superhero': 'Robin Nightwing',
         'publisher': 'DC Comics',
         'alter_ego': 'Dick Grayson',
         'first_appearance': 'Detective Comics #38',
