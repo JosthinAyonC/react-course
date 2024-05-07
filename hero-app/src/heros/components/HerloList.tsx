@@ -1,8 +1,9 @@
 import { useState, useEffect } from 'react';
 import { HeroCard } from './HeroCard';
-import { fetchHeroes, Hero } from '../data/Heros';
+import { Hero } from '../data/Heros';
 
 import '../components/HeroComponent.css'
+import { fetchHeroes } from '../helpers';
 
 export const HerloList = ({ publisher }: { publisher: string }) => {
 
