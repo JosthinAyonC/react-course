@@ -1,8 +1,9 @@
+import { HerloList } from "../components"
 
 export const MarvelPage = () => {
   return (
-    <h1>
-        marvel page
-    </h1>
-  ) 
+    <HerloList
+      publisher="Marvel Comics"
+    />
+  )
 }
