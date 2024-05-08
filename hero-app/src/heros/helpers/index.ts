@@ -1,1 +1,1 @@
-export * from './FunctionsHeros';
+export * from './ServiceHeros';

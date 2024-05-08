@@ -1,4 +1,4 @@
-import { types } from "../types/types";
+import { types } from "../data";
 
 export const authReducer = (state: {}, action: any) => {
     switch (action.type) {

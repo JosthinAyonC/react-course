@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import { Hero } from "../data/Heros";
+import { Hero } from "../data";
 import { fetchHeroById } from "../helpers";
 
 export const HeroPage = () => {
