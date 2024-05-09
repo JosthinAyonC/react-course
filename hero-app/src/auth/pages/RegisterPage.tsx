@@ -2,7 +2,7 @@
 export const RegisterPage = () => {
     return (
         <div>
-            <h1>Register Page</h1>
+            <h1>Login Page</h1>
             <div className="container">
                 <form>
                     <div className="container">
